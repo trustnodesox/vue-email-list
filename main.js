@@ -9,7 +9,6 @@ var app = new Vue({
       .then((response) => {
         this.email = response.data.response
       });
-
     },
   }
 })
