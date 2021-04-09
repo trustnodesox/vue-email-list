@@ -7,9 +7,8 @@
   <body>
     <div id="root">
       <ol>
-        {{ email }}
+        <li  v-for="email in emails">{{ email }}</li>
       </ol>
-      <button @click="emailRandom" type="button" name="button">Genera una email casuale</button>
     </div>
 
 
